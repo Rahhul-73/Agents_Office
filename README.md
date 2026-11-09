@@ -41,12 +41,12 @@ The full list, release by release: [CHANGELOG](CHANGELOG.md).
 
 ## Install
 
-
+```Bash
 git clone https: https://github.com/Rahhul-73/Agents_Office
 cd agents-office
 ./setup          # checks Node, git and Claude; installs; builds; boots once
 npm start        # → http://localhost:4520
-
+```
 Without `./setup`: `npm install && node build.mjs && npm start`.
 
 ## First five minutes
